@@ -1,3 +1,10 @@
+@font-face {
+    font-family: dogicaPixel;
+    src: url('Assets/dogicapixel.ttf');
+    font-weight: 400;
+    font-weight: normal;
+}
+
 body {
     margin: 0;
     padding: 20px;
@@ -8,6 +15,14 @@ body {
     align-items: center;
 }
 
-#game-container {
-    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+h1 {
+    font-family: 'dogicaPixel';
+    font-size: 20px;
+    color: #F5EFE6;
+}
+
+p {
+    font-family: 'dogicaPixel';
+    font-size: 10px;
+    color: #F5EFE6;
 }
